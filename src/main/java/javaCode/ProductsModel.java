@@ -1,6 +1,6 @@
 package javaCode;
 
-public record Products(
+public record ProductsModel(
         int id,
         boolean isActive,
         boolean isArchived,
@@ -14,8 +14,7 @@ public record Products(
     public record ProductSaldo(String productCode,
                                String scladId,
                                int volume,
-                               int regionId
-    ) {
+                               int regionId) {
     }
 
 }
