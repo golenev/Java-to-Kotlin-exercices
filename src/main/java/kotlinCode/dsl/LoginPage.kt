@@ -1,7 +1,7 @@
 package kotlinCode.dsl
 
 open class LoginPage {
-    fun clickBtn() {
+   protected fun clickBtn() {
         println("click btn")
     }
 
